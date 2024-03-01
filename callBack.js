@@ -9,4 +9,15 @@ function fun1 (name,age,callBack){
     }, 2000);
 }
 
-fun1("Farhan", 30, display)
+fun1("Farhan", 30, display);
+
+
+
+/* function a (){
+    console.log("hey everyone");
+}
+function main(callBack1){
+    callBack1();
+}
+
+main(a) */
