@@ -13,3 +13,9 @@ numbers.forEach(item => console.log(item+1));
     return item+1;
 });
 console.log(num); */
+
+
+// map
+const num = numbers.map(item => item+1);
+console.log(num);
+console.log(numbers);
