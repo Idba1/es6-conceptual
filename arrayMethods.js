@@ -24,3 +24,8 @@ console.log(numbers);
 // find
 const x = numbers.find(item => item===70);
 console.log(x);
+
+
+// filter 
+const i = numbers.filter(item => item===70);
+console.log(i);
