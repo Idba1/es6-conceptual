@@ -29,3 +29,9 @@ console.log(x);
 // filter 
 const i = numbers.filter(item => item===70);
 console.log(i);
+
+
+// reduce
+const numr = [1,2,3];
+const sum = numr.reduce((preValue,currentValue) => preValue+currentValue, 0);
+console.log(sum);
