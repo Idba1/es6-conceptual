@@ -7,7 +7,7 @@
 
 
 // forEach
-const numbers = [10, 20, 30, 40, 50, 60, 70];
+const numbers = [10, 20, 30, 40, 50, 60, 70, 70];
 numbers.forEach(item => console.log(item+1));
 /* const num = num.forEach(item => {
     return item+1;
@@ -19,3 +19,8 @@ console.log(num); */
 const num = numbers.map(item => item+1);
 console.log(num);
 console.log(numbers);
+
+
+// find
+const x = numbers.find(item => item===70);
+console.log(x);
